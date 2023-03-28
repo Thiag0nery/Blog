@@ -1,0 +1,13 @@
+from django.shortcuts import render
+from django.views.generic.list import ListView
+from django.views.generic.edit import UpdateView
+from django.http import HttpResponse
+
+class PostIndex(ListView):
+    ...
+class PostBusca(ListView):
+    ...
+class PostCategoria(ListView):
+    ...
+class PostDetalhes(UpdateView):
+    ...
